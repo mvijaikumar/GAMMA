@@ -3,8 +3,6 @@ import tensorflow as tf
 import numpy as np
 os.environ["TF_CPP_MIN_LOG_LEVEL"]="3"
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
-#np.random.seed(7) ##
-#tf.set_random_seed(7)
 sys.path.append('./.')
 sys.path.append('./Utilities/.')
 
