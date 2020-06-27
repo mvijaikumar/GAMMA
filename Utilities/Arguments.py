@@ -5,7 +5,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description="Arguments")
     parser.add_argument('--method', nargs='?', default='gamma',help='method name.')
     parser.add_argument('--path', nargs='?',
-                        default='/home/vijai/PROJECTS/Data_M3HeteRec/data/amazon_required/test1/fold1/',help   ='Input data path.')
+                        default='data/amazon/',help   ='Input data path.')
     parser.add_argument('--dataset', nargs='?', 
                         default='amazon',help='Choose a dataset.')
     parser.add_argument('--res_path', nargs='?',default='/home/vijai/Data_M3HeteRec/result/',help='result path for plots and best error values.')
